@@ -12,7 +12,6 @@ aside,
 main {
   display: block;
 }
-
 li{
   list-style: none;
 }
@@ -227,3 +226,111 @@ footer.layout-two {
   position: fixed;
   bottom: 0px;
 }
+
+/*LAYOUT3*/
+/*body*/
+.layout-three nav.horizontal .box{
+  display: block;
+  /* border: 1px solid black; */
+  height: 60px;
+  margin: 0px;
+  width: 235px;
+}
+
+.layout-three nav.horizontal {
+  height: 60px;
+  width: 100%;
+  background-color: rgb(168, 168, 168);
+}
+
+.layout-three nav.horizontal .box:hover {
+  background-color: rgb(47, 158, 192);
+}
+.layout-three nav.horizontal .box .content {
+  margin: 0px;
+  padding-top:20px ;
+  height: 60px;
+}
+
+.layout-three nav.horizontal .box.selected {
+  background-color: rgb(47, 158, 192);
+}
+.layout-three nav.horizontal .wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(37, 37, 37);
+  width: 100%;
+  margin: 0px;
+  padding-left: 0px;
+}
+
+/*nav*/
+
+/*main*/
+.wrapper.layout-three{
+  /* background-color: violet; */
+  background-color: rgb(212, 166, 212);
+
+}
+
+.layout-three .content-area{
+  background-color: rgb(90, 83, 90);
+  margin: 0px;
+  /* width: 100%; */
+
+}
+.row{
+  display: flex;
+  border: solid 1px black;
+  clear: both;
+}
+
+.wrapper.layout-three .square{
+  display: none;
+  width: 335px;
+  height: 350px;
+  margin: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+/*squares*/
+.square.one{
+  background-color: rgb(70, 60, 41);
+  background-image: url(../images/logo.png);  
+}
+.square.two{
+  background-color: wheat;
+  background-image: url(../images/logo.png);
+}
+.square.three{
+  background-color: rgb(138, 124, 100);
+  background-image: url(../images/logo.png);
+}
+
+.square.four{
+  background-color: rgb(214, 214, 214);
+  background-image: url(../images/logo.png);
+  background-position: center;
+}
+.square.five{
+  background-color: rgb(212, 208, 189);
+  background-image: url(../images/logo.png);
+}
+.square.six{
+  background-color: rgb(223, 197, 126);
+  background-image: url(../images/logo.png);
+}
+
+.square.one:hover{
+  background-color: black;
+}
+.square.two:hover{
+background-color: black;
+}
+.square.three:hover{
+  background-color: black;
+}
+
+/*footer*/

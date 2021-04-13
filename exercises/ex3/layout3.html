@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Ido Dor</title>
+    <script src="./js/scripts.js">
+    </script>
+</head>
+
+<body class="layout-three">
+    <header>
+        <span id="logo"><img src="./images/logo.png" alt=""></span>
+    </header>
+    <nav class="horizontal ">
+        <div class="wrapper">
+            <ul class="flex-spanning">
+                <li class="box"><a href="#">
+                        <span class="content">Layout 1</span>
+                    </a></li>
+                <li class="box"><a href="./layout2.html">
+                        <span class="content">Layout 2</span>
+                    </a></li>
+                <li class="box selected"><a href="./layout3.html">
+                        <span class="content">Layout 3</span>
+                    </a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- <div class="wrapper layout-three flex-spanning"> -->
+    <main class="wrapper layout-three">
+        <div class="row">
+            <div class="square one" id=sOne></div>
+            <div class="square two" id="sTwo"></div>
+            <div class="square three starred" id="sThree"></div>
+        </div>
+        <div class="row">
+            <div class="square four" id="sFour"></div>
+            <div class="square five" id="sFive"></div>
+            <div class="square six starred" id=sSix></div>
+        </div>
+        <script>
+            // var squareName=["sOne","sTwo","sThree"];
+            // window.onclick = createSquare(squareName[0]);
+            // window.onclick = createSquare(squareName[1]);
+            // window.onclick = createSquare(squareName[2]);
+            window.onclick = createSquares();
+            window.onclick = showImgToggle("sFour");
+            window.onclick = showImgToggle("sFour");
+        </script>
+
+    </main>
+    <!-- </div> -->
+    </section>
+    <footer>
+    </footer>
+</body>
+
+</html>
